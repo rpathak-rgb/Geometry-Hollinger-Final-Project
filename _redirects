@@ -1,0 +1,5 @@
+# Redirect all auth requests to Netlify Identity
+/.netlify/*  /.netlify/functions/auth  200
+
+# Fallback for single-page app routing
+/*  /index.html  200

@@ -1,8 +1,6 @@
-
 backend:
   name: github
   repo: rpathak/geometry-final-project
-
   branch: main
 
 media_folder: "assets/uploads"
